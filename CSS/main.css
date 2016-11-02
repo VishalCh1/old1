@@ -91,3 +91,9 @@ main{
     font-size: 18px;
     padding-left: 50px;
 }
+
+@media screen and (max-width: 998px) and (min-width: 500px){
+	.logo{
+		float: left;
+	}
+}
