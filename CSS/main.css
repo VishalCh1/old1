@@ -1,0 +1,93 @@
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+main{
+	padding-top: 50px;
+}
+
+.coverpic{
+	position: absolute;
+	margin: 0px;
+}
+
+.logo{
+	margin-top: 15px;
+}
+
+.name{
+	font-weight: 50;
+}
+
+.bg-2{
+	 background-color: #4C4C4C; /* Dark Blue */
+      color: #F3F2F2;
+      padding-top: 5px;
+      font-family: roboto;
+}
+
+.pad{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.navb{
+	border-radius: 0px;
+	background-color: white;
+}
+
+.me{
+	border-radius: 300px;
+	height: 300px;
+	width: 300px;
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+	
+}
+
+.medesc{
+	margin-top: 110px;
+	
+}
+
+.bgmo{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#mee{
+	font-family: 'Raleway', sans-serif;
+}
+
+.padbot{
+    padding-bottom: 30px;
+}
+@media screen and (max-width: 500px){
+	.me{
+		border-radius: 300px;
+	height: 200px;
+	width: 200px;
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+	}
+     .logo{
+        float: left;
+        padding-top: 10px;
+    }
+    .medesc{
+        font-size: 20px;
+    }
+}
+
+.contact{
+    font-size: 18px;
+    padding-left: 50px;
+}
