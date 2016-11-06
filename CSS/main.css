@@ -28,7 +28,7 @@ main{
 }
 
 .pad{
-	padding-top: 20px;
+	padding-top: 30px;
 	padding-bottom: 20px;
 }
 
@@ -63,8 +63,11 @@ main{
 }
 
 #mee{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 }
+
+
+
 
 .padbot{
     padding-bottom: 30px;
@@ -88,12 +91,24 @@ main{
 }
 
 .contact{
-    font-size: 18px;
-    padding-left: 50px;
+   font-family: 'Quicksand', sans-serif; 
+   
 }
 
-@media screen and (max-width: 998px) and (min-width: 500px){
+@media screen and (max-width: 998px){
 	.logo{
 		float: left;
+		width: 80px;
+		height: 80px;
+	}
+}
+@media screen and (max-width: 500px){
+	.name{
+		font-size: 25px;
+		padding-top: 5px;
+	}
+	.contact{
+		font-size: :25px;
+		
 	}
 }
