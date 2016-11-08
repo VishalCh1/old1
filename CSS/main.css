@@ -73,6 +73,10 @@ main{
 }
 
 
+.paded{
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
 
 
 .padbot{
@@ -125,9 +129,5 @@ main{
 	
 }
 
-.paded{
-	padding-top: 17px;
-	padding-bottom: 17px;
-}
 
 
