@@ -48,23 +48,29 @@
 
 .parallax {
     
-    background-image: url("images/camera.jpg");
+    background: url("images/camera.jpg") 40% 0 fixed;
      position: relative;
-    min-height: 200px;
-    opacity: 0.7;
-    background-attachment: fixed;
-    background-position: center;
+    min-height: 300px;
+   	 margin: 0 auto; 
+     width: 100%; 
     background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+   
+}
+
+@media screen and ( max-width: 500px){
+	.parallax{
+		background: url("images/camera.jpg") 50% 0 fixed;
+		min-height: 200px;
+		
+	}
+
+	
 }
 
 .caption1 {
   position: absolute;
   left: 0;
-  top: 40%;
+  top: 45%;
   width: 100%;
   text-align: center;
   color: #000;
@@ -169,7 +175,7 @@
 	</div>
 
   <div class="container-fluid">
-	<div class="row" style="padding-top: 20px;padding-bottom: 20px;">
+	<div class="row" style="padding-top: 30px;padding-bottom: 30px;">
 		<div class="col-md-6" style="padding-top: 20px">
 			<div class="panel panel-default" style="box-shadow: 0px 6px 10px grey;">
   				<div class="panel-heading text-center"  style="font-family: 'Quicksand', sans-serif; font-size: 20px; background-color: #00acc1; color: #fff"><b>EDUCATION</b></div>
@@ -223,13 +229,21 @@
 			</div>
 		</div>
 	</div>
+	<div class="row" style="padding-bottom: 30px">
+		<div class="col-md-12 text-center" style="font-family: 'Quicksand', sans-serif; ">
+			<h2 class="text-muted" style="letter-spacing: 2px;"><b>CERTIFICATION</b></h2>
+			<h3><b>GNIIT</b> from <b>NIIT</b>, Kharghar</h3>
+		</div>
+	</div>
   </div>
 
-<div id="creat" class="parallax">
-	<div class="caption1">
-    <span  class="border" style="font-family: 'Quicksand', sans-serif;"><strong>WORK</strong></span>
-  </div>
-</div>
+
+<section id="creat" class="parallax" data-type="background" data-speed="20" class="pages"> 
+		<div class="caption1">    
+          <span class="border" style="font-family: 'Quicksand', sans-serif; background-color:#212121"><strong>WORK</strong></span>
+   		</div> 
+   </section>
+ 
 
     <div class="container-fluid">
 	<div class="row">
@@ -284,11 +298,8 @@
   </div>
 
 </div>
-
 </div>
-
-<div class="parallax img-responsive"></div>
-
+ 
 
     </div>
     </div>
@@ -382,7 +393,23 @@ if ( ($(window).height() + 100) < $(document).height() ) {
     });
 }
 </script>
+<script type="text/javascript">
+	$(document).ready(function(){
 
+var $window = $(window); //You forgot this line in the above example
+
+$('section[data-type="background"]').each(function(){
+var $bgobj = $(this); // assigning the object
+$(window).scroll(function() {
+var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+// Put together our final background position
+var coords = '40% '+ yPos + 'px';
+// Move the background
+$bgobj.css({ backgroundPosition: coords });
+});
+});
+});
+</script>
 
 </body>
 </html>
