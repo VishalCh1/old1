@@ -3,6 +3,12 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;    
+}
+
 main{
 	padding-top: 50px;
 }
@@ -102,6 +108,10 @@ main{
 		height: 80px;
 	}
 }
+
+
+
+
 @media screen and (max-width: 500px){
 	.name{
 		font-size: 25px;
@@ -111,4 +121,13 @@ main{
 		font-size: :25px;
 		
 	}
+	
+	
 }
+
+.paded{
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
+
+
