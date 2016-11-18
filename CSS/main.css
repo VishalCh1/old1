@@ -145,3 +145,50 @@ main{
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+/*social colors*/
+.git-tool{
+	margin-right: 15px;
+	color: white;
+}
+.git-tool:hover,.git-tool:focus{
+	color: #000;
+}
+
+.fb-tool{
+	margin-right: 15px;
+	color: white;
+}
+.fb-tool:hover,.fb-tool:focus{
+	color: #0099ff;
+}
+
+.ins-tool{
+	margin-right: 15px;
+	color: white;
+}
+.ins-tool:hover,.ins:focus{
+	color: #ff0066;
+}
+.dart-tool{
+	margin-right: 15px;
+	color: white;
+}
+.dart-tool:hover,.ins-tool:focus{
+	color: #33cc33;
+}
+
+.linkd-tool{
+	margin-right: 15px;
+	color: white;
+}
+.linkd-tool:hover,.linkd-tool:focus{
+	color: #0099cc;	
+}
+.fb-tool{
+	margin-right: 15px;
+	color: white;
+}
+.fb-tool:hover,.fb-tool:focus{
+	color:#2952a3;
+}
+/*social colors end*/
