@@ -228,6 +228,13 @@ main{
 		width: 80px;
 		height: 80px;
 	}
+	.bottomline{
+    	margin-bottom: 0;
+    	margin-top: 0;
+    	font-size: 12px;
+    	padding-bottom: 12px;
+    	padding-top: 13px;
+    }
 }
 
 
