@@ -12,7 +12,9 @@ body{
  	font-size: 12px;
 	
 }
-
+.navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
 
 
 main{
@@ -132,8 +134,49 @@ main{
 	font-family: 'Quicksand', sans-serif;
 }
 
+/*---Skills--*/
 
+.htmlbg{
+	color: #fff;
+	background:  #ff944d;
+	max-width: 100%;
+	padding: 12px 0 7px 0;
+}
 
+.cssbg{
+	color: #fff;
+	background: #80dfff;
+	max-width: 100%;
+	padding: 12px 0 7px 0;
+}
+.jsbg{
+	color: #fff;
+	background: #ffd633;
+	max-width: 100%;
+	padding: 14px 0 5px 0;
+}
+.resbg{
+	color: #fff;
+	background: #aa80ff;
+	max-width: 100%;
+	padding: 14px 0 5px 0;
+}
+
+.niit{
+	max-width: 100%;
+	margin: 0 auto;
+	height: 40px;
+	width: 250px;
+}
+.niitbg{
+	background: #f2f2f2;
+}
+
+.gniit{
+	max-width: 100%;
+	height: 50px;
+	width:100px;
+}
 
 .padbot{
     padding-bottom: 30px;
@@ -154,12 +197,30 @@ main{
     .medesc{
         font-size: 20px;
     }
+    .bottomline{
+    	margin-bottom: 0;
+    	margin-top: 0;
+    	font-size: 12px;
+    	padding-bottom: 12px;
+    	padding-top: 10px;
+    }
+    .socialmob{
+    	align-self: center;
+    }
+}
+
+@media screen and (min-width: 1900px){
+
 }
 
 .contact{
    font-family: 'Quicksand', sans-serif; 
    
 }
+
+
+
+
 
 @media screen and (max-width: 998px){
 	.logo{
