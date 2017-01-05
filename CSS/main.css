@@ -16,6 +16,25 @@ body{
       color: #1abc9c !important;
   }
 
+.htmlbg:hover{
+	box-shadow: 0 15px 10px rgba(255, 144, 44, 0.3);
+   transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.cssbg:hover{
+	box-shadow: 0 15px 10px rgba(35, 224, 255, 0.2);;
+   transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.jsbg:hover{
+	box-shadow: 0 15px 10px rgba(216, 181, 44, 0.3);
+   transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.resbg:hover{
+	box-shadow: 0 15px 10px rgba(210, 161, 255, 0.4);
+   transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
 
 main{
 	padding-top: 100px;
@@ -214,13 +233,8 @@ main{
 }
 
 .contact{
-   font-family: 'Quicksand', sans-serif; 
-   
+   font-family: 'Quicksand', sans-serif;   
 }
-
-
-
-
 
 @media screen and (max-width: 998px){
 	.logo{
@@ -236,9 +250,6 @@ main{
     	padding-top: 13px;
     }
 }
-
-
-
 
 @media screen and (max-width: 500px){
 	.name{
@@ -263,5 +274,5 @@ main{
 	padding-top: 17px;
 	padding-bottom: 17px;
 }
-}
 
+}
