@@ -12,6 +12,7 @@
 
 
  	<link href="CSS/main.css" rel="stylesheet">
+ 	<script src="JS/Chart.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://use.fontawesome.com/bacaf6a1d6.js"></script>
 
@@ -116,7 +117,7 @@
 }
 #top-link-block.affix {
     position: fixed; /* keeps it on the bottom once in view */
-    bottom: 18px;
+    bottom: 45px;
     right: 10px;
 }
 </style>
@@ -154,7 +155,7 @@
 
 <main ><!-- main content starts from here-->
     
-<div class="container">
+<!-- <div class="container">
 	<div class="row" style="padding-bottom: 30px">
 		<div class="col-md-6">
 			<img class="img-responsive logo" src="images/logo.png">
@@ -169,22 +170,22 @@
 			
 		</div>
 	</div>
-    </div>
+    </div> -->
 	
 
-    <div class="container-fluid">
-	<div class="row">
+    <div class="container-fluid desktop">
+	<div class="row desktop">
 	<div class="bgmo">
     
-		<img class="img-responsive" src="images/desk.jpg" style="padding-left: 0px;padding-right: 0px;">
+		<img class="img-responsive" src="images/desk12.jpg" style="padding-left: 0px;padding-right: 0px;">
         	
 	</div>
     </div>
     </div>  
 	
     
-<div id="about" ></div>
-	<div class="container-fluid bg-2 pad">
+
+	<div class="container-fluid bg-2 pad mobme">
     <div  class="row">
   <div class="col-md-12 ">
       <img class="img-responsive me" src="images/me.jpg">
@@ -193,9 +194,123 @@
  <h3 id="mee" class="text-center">Hi, my name is Vishal,<br> I am a Web Developer.</h3>
     </div>
     </div>
-	</div>
+	</div >
 
-  <div class="container-fluid">
+	<section id="about" class="mz-module">
+			<div class="container-fluid light-bg">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-title">
+							<h2>ABOUT</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 text-center">
+						<div class="mz-about-container">
+							<h4 style="color: black">A creative geek from Navi Mumbai, skilled in front-end developemnt and photography.</h4>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<!-- skill bar item -->
+						<div class="skillbar-item">
+							<div class="skillbar" data-percent="90%">
+								<h3>Web design</h3>
+								<div class="skillbar-bar">
+									<div class="skillbar-percent" style="width: 90%;">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- skill bar item -->
+						<div class="skillbar-item">
+							<div class="skillbar" data-percent="85%">
+								<h3>Development</h3>
+								<div class="skillbar-bar">
+									<div class="skillbar-percent" style="width: 85%;">
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- skill bar item -->
+						<div class="skillbar-item">
+							<div class="skillbar" data-percent="80%">
+								<h3>Photography</h3>
+								<div class="skillbar-bar">
+									<div class="skillbar-percent" style="width: 80%;">
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- skill bar item -->
+						<div class="skillbar-item">
+							<div class="skillbar" data-percent="85%">
+								<h3>Creativity</h3>
+								<div class="skillbar-bar">
+									<div class="skillbar-percent" style="width: 90%;">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row row-0-gutter">
+					<!-- about module -->
+					<div class="col-md-3 col-0-gutter mz-about-default text-center">
+						<div class="mz-module-about">
+							<i class="fa fa-briefcase ot-circle fa-2x"></i>
+							<h3>Web Development</h3>
+						</div>
+					</div>
+					<!-- end about module -->
+					<!-- about module -->
+					<div class="col-md-3 col-0-gutter mz-about-default text-center">
+						<div class="mz-module-about">
+							<i class="fa fa-photo ot-circle fa-2x"></i>
+							<h3>Visualisation</h3>
+						</div>
+					</div>
+					<!-- end about module -->
+					<!-- about module -->
+					<div class="col-md-3 col-0-gutter mz-about-default text-center">
+						<div class="mz-module-about">
+							<i class="fa fa-camera-retro ot-circle fa-2x"></i>
+							<h3>Photography</h3>
+						</div>
+					</div>
+					<!-- end about module -->
+					<!-- about module -->
+					<div class="col-md-3 col-0-gutter mz-about-dark text-center">
+						<div class="mz-module-about">
+							<i class="fa fa-cube ot-circle fa-2x"></i>
+							<h3>UI/UX Design</h3>
+						</div>
+					</div>
+					<!-- end about module -->
+				</div>
+			</div>
+			<!-- /.container -->
+		</section>
+
+		<div class="col-md-12 text-center formob" style="font-family: 'Quicksand', sans-serif; padding-top: 15px; padding-right: 0; padding-left: 0;">
+			<h2 class="text-muted" style="letter-spacing: 2px; margin-bottom: 20px;"><b>PRIMARY SKILLS</b></h2>
+			<div class="col-md-3 htmlbg"><i style="font-size: 500%" class="fa fa-html5 fa-2x"></i>
+			<h3><b>HTML5</b></h3>
+			</div>
+			<div class="col-md-3 cssbg"><i style="font-size: 500%" class="fa fa-css3 fa-2x"></i>
+			<h3><b>CSS3</b></h3>
+			</div>
+			<div class="col-md-3 jsbg"><i style="font-size: 500%" class="fa fa-file-code-o fa-2x"></i>
+			<h3><b>JavaScript</b></h3>
+			</div>
+			<div class="col-md-3 resbg"><i style="font-size: 500%" class="fa fa- fa-window-restore fa-2x"></i>
+			<h3><b>Bootstrap</b></h3>
+			</div>
+		</div>
+
+ <!--  <div class="container-fluid">
 	<div class="row" style="padding-top: 30px;padding-bottom: 20px;">
 		<div class="col-md-6" style="padding-top: 20px">
 			<div class="panel panel-default" style="box-shadow: 0px 6px 10px grey;">
@@ -251,32 +366,134 @@
 		</div>
 	</div>
 	</div>
+ -->
 	
-	<div class="container-fluid">
-	<div class="row">
 	
-		<div class="col-md-12 text-center" style="font-family: 'Quicksand', sans-serif; padding-right: 0; padding-left: 0;">
-			<h2 class="text-muted" style="letter-spacing: 2px; margin-bottom: 20px;"><b>PRIMARY SKILLS</b></h2>
-			<div class="col-md-3 htmlbg"><i style="font-size: 500%" class="fa fa-html5 fa-2x"></i>
-			<h3><b>HTML5</b></h3>
-			</div>
-			<div class="col-md-3 cssbg"><i style="font-size: 500%" class="fa fa-css3 fa-2x"></i>
-			<h3><b>CSS3</b></h3>
-			</div>
-			<div class="col-md-3 jsbg"><i style="font-size: 500%" class="fa fa-file-code-o fa-2x"></i>
-			<h3><b>JavaScript</b></h3>
-			</div>
-			<div class="col-md-3 resbg"><i style="font-size: 500%" class="fa fa- fa-window-restore fa-2x"></i>
-			<h3><b>Responsive Design</b></h3>
-			</div>
-		</div>
-	</div>
-	</div>
+	<div id="skillswrap">
+		<div class="container">
+			<div class="row">
+					<div class="col-lg-2 col-lg-offset-1">
+						<h4 class="skillmob"><b>SKILLS</b></h4>
+					</div>
+					<div class="col-md-3 centered">
+						<canvas id="javascript" height="130" width="130"></canvas>
+						<h5><b>HTML</b></h5>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 85,
+										color:"#ff4d4d"
+									},
+									{
+										value : 15,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-md-3 centered">
+						<canvas id="bootstrap" height="130" width="130"></canvas>
+						<h5><b>CSS</b></h5>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 80,
+										color:"#ff4d4d"
+									},
+									{
+										value : 20,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-md-3 centered">
+						<canvas id="wordpress" height="130" width="130"></canvas>
+						<h5><b>BOOTSTRAP</b></h5>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 85,
+										color:"#ff4d4d"
+									},
+									{
+										value : 15,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					
+					<div class="col-md-3 col-lg-offset-3 centered">
+						<canvas id="html" height="130" width="130"></canvas>
+						<h5><b>JAVASCRIPT</b></h5>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 70,
+										color:"#ff4d4d"
+									},
+									{
+										value : 30,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-md-3 centered">
+						<canvas id="photoshop" height="130" width="130"></canvas>
+						<h5><b>JQUERY</b></h5>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 70,
+										color:"#ff4d4d"
+									},
+									{
+										value : 30,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-md-3 centered">
+						<canvas id="illustrator" height="130" width="130"></canvas>
+						<h5><b>PHOTOSHOP</b></h5>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 75,
+										color:"#ff4d4d"
+									},
+									{
+										value : 25,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+
+			</div><!--/.row -->
+			<br>
+		</div><!--/.container -->
+	</div><!--/ #skillswrap -->
 	
 	<div class="container-fluid">
 	<div class="row niitbg" style="padding-bottom: 30px">
-		<div class="col-md-12 text-center" style="font-family: 'Quicksand', sans-serif; padding-right: 0;">
-			<h2 class="text-muted" style="letter-spacing: 2px; padding-top: 10px;"><b>CERTIFICATION</b></h2>
+		<div class="col-md-12 text-center" style="font-family: 'Quicksand', sans-serif; padding-right: 0; padding-bottom: 20px;">
+			<h2 class="text-muted" style="letter-spacing: 2px; padding-top: 30px;"><b>CERTIFICATION</b></h2>
 			<img class="img-responsive gniit" src="images/GNTNW.png" style="margin: 0 auto;"><h3 style="margin-top: 0; margin-bottom: 0;"> from</h3><br>
 			<img class="niit img-responsive" src="images/NIIT_logo.png">
 		</div>
@@ -298,9 +515,9 @@
     <h2 class="text-muted text-center" style="letter-spacing: 2px;"><b>PHOTOSHOP CREATIONS</b></h2>
     </div>
 
-       <div class="container">
+       <div class="container-fluid">
 <div class="row padbot">
-  <div class="col-md-6">
+  <div class="col-md-4">
     <div class="thumbnail card-1">
       <img class="img-responsive" src="images/metro.jpg">
       <div class="caption">
@@ -311,7 +528,7 @@
   </div>
  
 
-  <div class="col-md-6">
+  <div class="col-md-4">
     <div class="thumbnail card-1">
       <img class="img-responsive" src="images/booker.jpg">
       <div class="caption">
@@ -320,10 +537,10 @@
       </div>
     </div>
   </div>
-</div>
 
-<div class="row padbot">
-  <div class="col-md-6">
+
+
+  <div class="col-md-4">
     <div class="thumbnail card-1">
       <img class="img-responsive" src="images/division.jpg">
       <div class="caption">
@@ -332,8 +549,9 @@
       </div>
     </div>
   </div>
-
-  <div class=" col-md-6">
+  </div>
+<div class="row padbot">
+  <div class=" col-md-4">
     <div class="thumbnail card-1">
       <img class="img-responsive" src="images/batm.jpg">
       <div class="caption">
@@ -343,6 +561,25 @@
     </div>
   </div>
 
+  <div class=" col-md-4">
+    <div class="thumbnail card-1">
+      <img class="img-responsive" src="images/WD.jpg">
+      <div class="caption">
+        <h3>Watch Dogs</h3>
+        <a href="http://vis-al-ghul.deviantart.com/art/Watch-Dogs-Custom-Wallpaper-379621666" target="_blank"><button class="button button2">DeviantArt</button></a>
+      </div>
+    </div>
+  </div>
+
+  <div class=" col-md-4">
+    <div class="thumbnail card-1">
+      <img class="img-responsive" src="images/mell.jpg">
+      <div class="caption">
+        <h3>Metro: Last Light <small>(B/W)</small></h3>
+        <a href="http://vis-al-ghul.deviantart.com/art/Metro-Last-Light-Custom-wallpaper-372126626" target="_blank"><button class="button button2">DeviantArt</button></a>
+      </div>
+    </div>
+  </div>
 </div>
 </div>
  
@@ -351,38 +588,39 @@
     </div>
 
     <!--contact-->
-    <div id="cont" class="container-fluid bg-2 " style="padding-bottom: 30px;">
+    <div id="cont" class="container-fluid bg-2 " style="padding-bottom: 100px;">
     <div class="row">
-        <div class="col-md-6 " style="font-family: 'Quicksand', sans-serif;">
-        <h2 >CONTACT</h2>
-         <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> chavan.vishal0494@gmail.com</p>
-         <p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 8424918401</p>   
+        <div class="col-md-6 contactmob" style="font-family: 'Quicksand', sans-serif; padding-left: 40px; ">
+        <div class="socialborder" style="border-left: 5px solid white; ">
+        <h3 id="conta" style="margin-bottom: 20px; padding-left: 5px;">CONTACT</h3>
+        </div>
+         <i class="fa fa-envelope" aria-hidden="true" style="font-size: 18px; padding-top: 15px;"></i><br> <p style="margin-bottom: 20px;">chavan.vishal0494@gmail.com</p>
+         <i class="fa fa-phone" aria-hidden="true" style="font-size: 18px;"></i><br><p style="margin-bottom: 20px;">8424918401</p>
+         <i class="fa fa-map-marker" aria-hidden="true" style="font-size: 18px;"></i><br><p> 401, Aradhana C.H.S, Sec 34,<br> Kamothe Navi Mumbai.</p>   
         </div>
 
-        <div class="col-md-6 socialmob">
-        	<h2 style="font-family: 'Quicksand', sans-serif;">SOCIAL</h2>
-        	
-        	
+        <div class="col-md-6 socialmob" style="padding-left: 40px; ">
+        	 <div class="socialborder" style="border-left: 5px solid white; ">
+        	<h3 id="social" style="font-family: 'Quicksand', sans-serif;margin-bottom: 15px;padding-left: 5px;">SOCIAL</h3>
+        	</div>      	
+			<a  title="GitHub" class="git-tool"  href="https://github.com/VCH0494/" target="_blank";><i style="padding-top: 15px; font-size: 23px; padding-right: 10px;" class="fa fa-github" aria-hidden="true"> </i></a>
 
-			<a data-toggle="tooltip" data-placement="left" title="GitHub" class="git-tool"  href="https://github.com/VCH0494/" target="_blank";><i class="fa fa-github fa-2x" aria-hidden="true"> </i></a>
-
-			<a data-toggle="tooltip" data-placement="bottom" title="LinkedIn" class="linkd-tool" href="https://www.linkedin.com/in/vishal-chavan-478529112?trk=nav_responsive_tab_profile_pic" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+			<a itle="LinkedIn" class="linkd-tool" href="https://www.linkedin.com/in/vishal-chavan-478529112?trk=nav_responsive_tab_profile_pic" target="_blank"><i style="font-size: 23px; padding-right: 10px;" class="fa fa-linkedin" aria-hidden="true"></i>
 			</a>
 
-			<a data-toggle="tooltip" data-placement="bottom" title="facebook" class="fb-tool" href="https://www.facebook.com/VisAlGhul" target="_blank"> <i class="fa fa-facebook fa-2x" aria-hidden="true" ></i></a>
+			<a title="facebook" class="fb-tool" href="https://www.facebook.com/VisAlGhul" target="_blank"> <i style="font-size: 23px; padding-right: 15px;" class="fa fa-facebook" aria-hidden="true" ></i></a>
 
-			<a data-toggle="tooltip" data-placement="bottom" title="Instagram" class="ins-tool" href="https://www.instagram.com/vishal_ch/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+			<a title="Instagram" class="ins-tool" href="https://www.instagram.com/vishal_ch/" target="_blank"><i style="font-size: 23px; padding-right: 15px;" class="fa fa-instagram" aria-hidden="true"></i>
 			</a>
 			
-			<a data-toggle="tooltip" data-placement="right" title="DeviantArt" class="dart-tool" href="http://vis-al-ghul.deviantart.com/" target="_blank"><i class="fa fa-deviantart fa-2x" aria-hidden="true"></i></a>
-
+			<a title="DeviantArt" class="dart-tool" href="http://vis-al-ghul.deviantart.com/" target="_blank"><i style="font-size: 23px; margin-left: 5px;" class="fa fa-deviantart" aria-hidden="true"></i></a>
         </div>
     </div>
     	
     </div>
     	<div class="container-fluid">
     		 <div class="row">
-    	 	<div class="col-md-12" style="background-color: #2f2f2f;"><h6 class="bottomline" align="center" style="color: white;">Designed and developed by Vishal Chavan</h6> </div>
+    	 	<div class="col-md-12" style="background-color: #2f2f2f;"><h6 class="bottomline" align="right" style="color: white;">Designed and developed by Vishal Chavan</h6> </div>
     		 </div>
     	 </div>
     </main>
